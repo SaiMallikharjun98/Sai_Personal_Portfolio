@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="bg-white py-16 px-4">
+    <div id="contact" className="bg-[#333] py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
           Contact Me

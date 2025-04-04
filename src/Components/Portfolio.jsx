@@ -2,10 +2,7 @@ import React from "react";
 
 const Portfolio = (props) => {
   return (
-    <div
-      id="portfolio"
-      className="py-10 bg-gradient-to-b from-[#766dff] to-[#88f3ff]"
-    >
+    <div id="portfolio" className="py-10 bg-white">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-white mb-10">
           MY PROJECTS
