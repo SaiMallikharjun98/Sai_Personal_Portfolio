@@ -21,13 +21,13 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-[#333] py-16 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
+        <h1 className="text-4xl font-bold text-center text-white mb-10">
           Contact Me
         </h1>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="flex flex-col gap-2">
-            <label htmlFor="name" className="text-gray-700 font-medium">
+            <label htmlFor="name" className="text-white font-medium">
               Name
             </label>
             <input
@@ -39,10 +39,10 @@ const Contact = () => {
               onChange={handleChange}
               required
               autoComplete="name"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
 
-            <label htmlFor="mail" className="text-gray-700 font-medium">
+            <label htmlFor="mail" className="text-white font-medium">
               Email
             </label>
             <input
@@ -54,10 +54,10 @@ const Contact = () => {
               onChange={handleChange}
               required
               autoComplete="email"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
 
-            <label htmlFor="subject" className="text-gray-700 font-medium">
+            <label htmlFor="subject" className="text-white font-medium">
               Subject
             </label>
             <input
@@ -69,10 +69,10 @@ const Contact = () => {
               onChange={handleChange}
               required
               autoComplete="off"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
 
-            <label htmlFor="message" className="text-gray-700 font-medium">
+            <label htmlFor="message" className="text-white font-medium">
               Message
             </label>
             <textarea
@@ -84,7 +84,7 @@ const Contact = () => {
               required
               autoComplete="off"
               rows="5"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
             ></textarea>
           </div>
 
