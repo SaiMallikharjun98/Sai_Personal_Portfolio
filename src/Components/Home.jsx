@@ -10,9 +10,9 @@ const Home = (props) => {
   return (
     <div>
       {/* Home Section Background */}
-      <div id="home" className="min-h-screen p-4 pb-20">
+      <div id="home" className="h-[150vh] p-4 pb-20">
         {/* Floating Card */}
-        <div className="bg-white w-[80%] mx-auto -mt-100 rounded-lg shadow-2xl relative z-10">
+        <div className="bg-white w-[80%] mx-auto -mt-150 rounded-lg shadow-2xl relative z-10">
           <div className="flex flex-col md:flex-row items-center p-6">
             {/* Image */}
             <img
