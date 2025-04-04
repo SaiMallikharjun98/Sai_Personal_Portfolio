@@ -4,7 +4,7 @@ const Portfolio = (props) => {
   return (
     <div id="portfolio" className="py-10 bg-white">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-white mb-10">
+        <h1 className="text-4xl font-bold text-center text-[#333] mb-10">
           MY PROJECTS
         </h1>
 

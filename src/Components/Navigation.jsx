@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navigation = () => {
   const links = [
-    { to: "home", label: "Home", offset: -10 },
+    { to: "home", label: "Home", offset: -300 },
     { to: "about", label: "About", offset: -100 },
     { to: "skills", label: "Skills", offset: -20 },
     { to: "portfolio", label: "Portfolio", offset: -20 },
