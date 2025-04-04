@@ -11,7 +11,7 @@ const Home = (props) => {
     <div>
       {/* Home Page Container */}
       <div id="home">
-        <div className="bg-gradient-to-b from-[#766dff] to-[#88f3ff] w-full h-[150vh]">
+        <div className="bg-white w-[80%] h-[150vh] relative bottom-0 top-1/5 rounded-lg">
           <div className="flex flex-col md:flex-row items-center p-5">
             <img
               src="/image.jpg"
@@ -29,7 +29,7 @@ const Home = (props) => {
                 experiences. Always learning, always creating.
               </p>
 
-              <div className="flex flex-col justify-center gap-10 pl-5 pt-1">
+              <div className="flex flex-col justify-center gap-5 pl-5 pt-1">
                 <i className="bi bi-house text-2xl text-white"></i>
                 <div className="text-2xl text-white">
                   <LocationComponent />
