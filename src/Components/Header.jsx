@@ -38,7 +38,7 @@ const Header = () => {
       </div>
 
       {/* Rotating Role Text */}
-      <div className="flex justify-center items-center h-[250px]">
+      <div className="flex justify-center items-center h-[50%]">
         <h1 className="text-[60px] font-bold text-center text-[rgb(220,221,235)]">
           {roles[roleIndex]}
         </h1>
