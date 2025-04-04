@@ -11,7 +11,7 @@ const Home = (props) => {
     <div>
       {/* Home Page Container */}
       <div id="home">
-        <div className="bg-white w-[80%] h-[150vh] relative bottom-0 top-1/5 rounded-lg">
+        <div className="bg-white w-[80%] h-[150vh] relative top-[20%] bottom-0 rounded-lg">
           <div className="flex flex-col md:flex-row items-center p-5">
             <img
               src="/image.jpg"
