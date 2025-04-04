@@ -15,7 +15,7 @@ const Home = (props) => {
         className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 min-h-screen p-4 pb-20"
       >
         {/* Floating Card */}
-        <div className="bg-white w-[70%] mx-auto -mt-80 rounded-lg shadow-2xl relative z-10">
+        <div className="bg-white w-[80%] mx-auto -mt-100 rounded-lg shadow-2xl relative z-10">
           <div className="flex flex-col md:flex-row items-center p-6">
             {/* Image */}
             <img
@@ -50,7 +50,7 @@ const Home = (props) => {
                   href="https://github.com/SaiMallikharjun98"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-2xl text-gray-700 hover:text-blue-500"
+                  className="text-3xl text-gray-700 hover:text-blue-500"
                 >
                   <i className="bi bi-github"></i>
                 </a>
@@ -58,19 +58,19 @@ const Home = (props) => {
                   href="https://www.linkedin.com/in/smmallikharjunkhandavilli"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-2xl text-gray-700 hover:text-blue-500"
+                  className="text-3xl text-gray-700 hover:text-blue-500"
                 >
                   <i className="bi bi-linkedin"></i>
                 </a>
                 <a
                   href="mailto:mallikharjun7965@gmail.com"
-                  className="text-2xl text-gray-700 hover:text-blue-500"
+                  className="text-3xl text-gray-700 hover:text-blue-500"
                 >
                   <i className="bi bi-envelope"></i>
                 </a>
                 <a
                   href="tel:+91 8919842383"
-                  className="text-2xl text-gray-700 hover:text-blue-500"
+                  className="text-3xl text-gray-700 hover:text-blue-500"
                 >
                   <i className="bi bi-phone"></i>
                 </a>
