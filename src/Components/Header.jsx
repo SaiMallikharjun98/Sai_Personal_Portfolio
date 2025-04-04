@@ -25,7 +25,7 @@ const Header = () => {
   });
 
   return (
-    <div className="bg-gradient-to-b from-[#766dff] to-[#88f3ff] w-full h-[150vh]">
+    <div className="bg-gradient-to-b from-[#766dff] to-[#88f3ff] w-full h-[120vh]">
       {/* Header with fixed top navbar */}
       <div className="flex fixed top-0 bg-gradient-to-t from-[#766dff] to-[#88f3ff] z-[1000] w-full items-center justify-between px-10 py-2">
         <h2 className="text-3xl text-white cursor-pointer" onClick={handler}>
