@@ -12,7 +12,7 @@ const Home = (props) => {
       {/* Home Section Background */}
       <div id="home" className="h-auto min-h-[80px] pt-4 px-4">
         {/* Floating Card */}
-        <div className="bg-white w-[80%] mx-auto rounded-lg shadow-2xl relative bottom-[250px] z-10">
+        <div className="bg-white w-[80%] mx-auto rounded-lg shadow-2xl relative bottom-[360px] z-10">
           <div className="flex flex-col md:flex-row items-center p-6">
             {/* Image */}
             <img
