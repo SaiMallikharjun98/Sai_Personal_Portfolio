@@ -15,7 +15,7 @@ const Home = (props) => {
         className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 min-h-screen p-4 pb-20"
       >
         {/* Floating Card */}
-        <div className="bg-white w-[90%] mx-auto -mt-50 rounded-lg shadow-2xl relative z-10">
+        <div className="bg-white w-[70%] mx-auto -mt-80 rounded-lg shadow-2xl relative z-10">
           <div className="flex flex-col md:flex-row items-center p-6">
             {/* Image */}
             <img
