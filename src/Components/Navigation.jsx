@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { Menu, X } from "lucide-react"; // Install via: npm install lucide-react
+import { Menu, X } from "lucide-react"; 
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
