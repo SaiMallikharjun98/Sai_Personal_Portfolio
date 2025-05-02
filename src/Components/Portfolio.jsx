@@ -8,7 +8,7 @@ const Portfolio = (props) => {
           MY PROJECTS
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {props.newProjectsArray && props.newProjectsArray.length > 0 ? (
             props.newProjectsArray.map((project, index) => (
               <div
