@@ -11,7 +11,7 @@ const Skills = (props) => {
           MY SKILLS
         </h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-items-center">
           {props.newTechnologiesArray &&
           props.newTechnologiesArray.length > 0 ? (
             props.newTechnologiesArray.map((tech) => (
