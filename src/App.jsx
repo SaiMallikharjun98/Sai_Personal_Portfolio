@@ -9,8 +9,6 @@ function App() {
     { id: 4, name: "Tailwind CSS", imageUrl: "/icons8-tailwind-css-48.png" },
     { id: 5, name: "JavaScript", imageUrl: "/javascript.png" },
     { id: 6, name: "React JS", imageUrl: "/react.svg" },
-    { id: 7, name: "Python", imageUrl: "/python.png" },
-    { id: 8, name: "SQL", imageUrl: "/sql-server.png" },
   ];
 
   const projects = [
